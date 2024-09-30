@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 name: Client - Azure Static Web Apps CI/CD
-=======
-name: Azure Static Web Apps CI/CD
->>>>>>> c19297bad60323b67b3534ed14327ee8e889e0fb
 
 on:
   push:
@@ -23,12 +19,9 @@ jobs:
         with:
           submodules: true
           lfs: false
-<<<<<<< HEAD
       - name: Echo
         run: |
             echo "BACKEND_URL: ${{ vars.BACKEND_URL }}"
-=======
->>>>>>> c19297bad60323b67b3534ed14327ee8e889e0fb
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
